@@ -1,0 +1,88 @@
+#board {
+  overflow-y: auto !important;
+}
+
+.list-card-title {
+  font-weight: 400 !important;
+}
+
+.board-header {
+    text-align: center;
+    background-color: #205081;
+    padding: 4px !important;
+}
+
+#header, .board-header-btns, #burndownLink, #scrumSettingsLink {
+    display: none !important;
+}
+
+#board {
+    background: #f5f5f5;
+}
+
+.list-header.editable {
+    color: white;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #ccc;
+}
+
+.list-header.editable h2 {
+    font-weight: 400;
+}
+
+.open-card-composer {
+    text-align: center;
+    font-weight: 100;
+}
+
+.list {
+  display: block !important;
+  max-height: none !important;
+  background: transparent !important;
+}
+
+.list-card {
+  border: 1px solid #ccc !important;
+  border-radius: 0 !important;
+  min-height: 80px !important;
+  margin: -1px 0 0 0 !important;
+  padding: 0 !important;
+}
+
+.list-cards:first-child {
+  margin-top: 0;
+}
+
+.list-cards {
+    background: #f5f5f5;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.list-card-details {
+  border-left: 5px solid #bfe4ff;
+  min-height: 80px !important;
+}
+
+.list-card-cover {
+  display: none;
+}
+
+.list-card-title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-transform: capitalize;
+}
+
+/* Modal */
+
+.window-cover {
+  display: none;
+}
+
+.window-header-inline-content {
+  display: none;
+}
