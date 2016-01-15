@@ -4,7 +4,11 @@
   "manifest_version": 2,
   "description": "Give Trello a nice style.",
   "browser_action": {},
-  "icons": {},
+  "icons": {
+    "16": "images/logo.png",
+    "48": "images/logo.png",
+    "128": "images/logo.png"
+  },
   "content_scripts": [
     {
       "matches": ["https://trello.com/*"],
