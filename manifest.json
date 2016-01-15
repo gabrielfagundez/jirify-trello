@@ -1,14 +1,9 @@
 {
-  "name": "Styles for Trello",
+  "name": "Jirify Trello",
   "version": "0.1",
   "manifest_version": 2,
   "description": "Give Trello a nice style.",
-  "options_page": "options.html",
-  "browser_action": {
-    "default_icon": "images/logo.png",
-    "default_title": "SFT",
-    "popup": "popup.html"
-  },
+  "browser_action": {},
   "icons": {
     "16": "images/logo.png",
     "48": "images/logo.png",
